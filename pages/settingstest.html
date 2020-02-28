@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="api.js"></script>
+		<link href="api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={603bfe5e09c432262f296311d96a261b}" />
+		<title>Weather Beats</title>
+		<script>
+			function showPosition() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(function(position) {
+						var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+						document.getElementById("result").innerHTML = positionInfo;
+					});
+				} else {
+					alert("Sorry, your browser does not support HTML5 geolocation.");
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1>Preferences</h1>
+		<div id="result">
+			<!--Position information will be inserted here-->
+		</div>
+		<button type="button" onclick="showPosition();">Show Position</button>
+	</body>
+
+</html>
