@@ -1,0 +1,68 @@
+body {
+background-image: url('background.jpg');
+margin: 0;
+padding: 0;
+}
+
+.header{
+color: ghostwhite;
+font-size: 20px;
+text-align: center;
+}
+
+audio{
+position: fixed;
+bottom: 45px;
+width: 100%;
+}
+
+article h1{
+color: floralwhite;
+text-align: center;
+font-family: sans-serif;
+border: ridge;
+padding: 10px;
+}
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 33.33%;
+padding: 10px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: inline-flex;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+.footer{
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+    width: 110%;
+
+
+}
