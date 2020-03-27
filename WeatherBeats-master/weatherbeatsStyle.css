@@ -7,6 +7,12 @@ margin: 0;
 padding: 0;
 }
 
+.login{
+  background-color: white;
+text-align: center;
+
+}
+
 .header{
 color: ghostwhite;
 font-size: 20px;
