@@ -7,10 +7,10 @@ margin: 0;
 padding: 0;
 }
 
-.login{
-  background-color: white;
+a:link,.login{
+color: white;
 text-align: center;
-
+font-size: 1.1em;
 }
 
 .header{
