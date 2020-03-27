@@ -1,74 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" title="WeatherbeatzStyle" href="weatherbeatsStyle.css" type="text/css">
-        <script src="weatherbeatzJava.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WeatherBeatz Settings Page</title>
     </head>
-
-    <header>
-        <h1>Settings</h1>
-    </header>
-
+    
     <body>
-        <div class="theme-switch-wrapper">
-            <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-                <div class="slider round"></div>
-            </label>
-            <em>Enable Dark Mode!</em>
+        <div class="title">
+            <h1 align="center">WeatherBeatz</h1>
         </div>
-
-        <script>
-            function darkmode() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
-        </script>
-
-        <button onclick="getLocation()">Enable location</button>
-        <script>
-            var x = document.getElementById("demo");
-
-            function getLocation() {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(showPosition);
-                } else {
-                    x.innerHTML = "Geolocation is not supported by this browser.";
-                }
-            }
-
-            function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
-            }
-
-            function showError(error) {
-                switch (error.code) {
-                    case error.PERMISSION_DENIED:
-                        x.innerHTML = "User denied the request for Geolocation."
-                        break;
-                    case error.POSITION_UNAVAILABLE:
-                        x.innerHTML = "Location information is unavailable."
-                        break;
-                    case error.TIMEOUT:
-                        x.innerHTML = "The request to get user location timed out."
-                        break;
-                    case error.UNKNOWN_ERROR:
-                        x.innerHTML = "An unknown error occurred."
-                        break;
-                }
-            }
-        </script>
-
-
+        <div class="box">
+            <div class="page">
+                <h2 align="center" style="margin: auto">Settings</h2>
+            </div>
+            <div class="icon"></div>
+        </div>
+        <div class="topnav">
+            <a  href="Home.html">Home</a>
+            <a href="playlist.html">Playlist</a>
+            <a href="album.html">Album</a>
+            <a class="active" href="settings.html">Settings</a>
+            <a href="player.html">Music Player</a>
+        </div>
     </body>
-    <footer>
-        <nav>
-            <a class="button" href="homepage.html">Library</a>
-            <a class="button" href="">Browse</a>
-            <a class="button" href="index.html">Sign Out</p>
-        </nav>
-    </footer>
+</html>
