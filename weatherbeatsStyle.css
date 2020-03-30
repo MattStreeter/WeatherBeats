@@ -1,0 +1,146 @@
+body {
+background-image: url('background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+}
+
+a:link,.login{
+color: white;
+text-align: center;
+font-size: 1.1em;
+}
+
+.header{
+color: ghostwhite;
+font-size: 20px;
+text-align: center;
+}
+
+audio{
+position: fixed;
+bottom: 45px;
+width: 100%;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    display: inline-flex;
+    padding: 14px 20px;
+    text-decoration: none;
+
+    font-family: serif;
+}
+
+.topnav a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.active{
+    background-color: skyblue;
+    color: white;
+}
+
+.box{
+    width: 900px;
+    height: 700px;
+    position: relative;
+    margin: 3% auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.page{
+    width: auto;
+    height: 50px;
+    background: linear-gradient(to bottom, #000066 32%, #3366ff 93%);
+    border-radius: 10px;
+}
+
+.icon{
+    width: auto;
+    height: 600px;
+    background: linear-gradient(to bottom, #000066 32%, #3366ff 93%);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.title{
+    width: 100%;
+    height: 90px;
+}
+
+h1{
+    margin: auto;
+    padding: 20px;
+    font-size: 50px;
+    color: white
+}
+
+h2{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+article h1{
+color: floralwhite;
+text-align: center;
+font-family: sans-serif;
+border: ridge;
+padding: 10px;
+}
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 33.33%;
+padding: 10px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: inline-flex;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+.footer{
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+    width: 100%;
+}

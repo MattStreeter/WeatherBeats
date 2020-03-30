@@ -1,2 +1,0 @@
-# WeatherBeats
-Software Engineering code
