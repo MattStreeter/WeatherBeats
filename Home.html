@@ -33,20 +33,35 @@
             </div>
 
         </section>
+
+        <div class="weatherWidget">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/50d82n1d09/portsmouth/" data-label_1="PORTSMOUTH" data-label_2="WEATHER" data-icons="Climacons Animated" data-mode="Current" data-textcolor="#ffffff" data-suncolor="#f9e22e"
+                data-mooncolor="#a5a5a4" data-cloudcolor="#ebebeb" data-cloudfill="#ebebeb" data-raincolor="#78dcf1" data-snowcolor="#ffffff">PORTSMOUTH WEATHER</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>
+
         <div="audio">
             <audio controls>
                 <source src="the-box.mp3" type="audio/mpeg">
                 Not supported
             </audio>
-        </div>
+            </div>
     </body>
     <footer class="footer">
         <nav>
             <ul>
-                <li><a class="active" href="Home.html">Home</a></li>
-                <li><a href="playlist.html">Playlists</a></li>
-                <li><a href="settings.html">Settings</a></li>
-                <li><a href="player.html">Music Player</a></li>
+                <a class="active" href="Home.html">Home</a>
+                <a href="clearplayer.html"> <button class="btn btn1">Clear</button></a>
+                <a href="cloudplayer.html"><button class="btn btn2">Cloudy</button></a>
+                <a href="fogplayer.html"><button class="btn btn3">Foggy</button></a>
+                <a href="heavyplayer.html"><button class="btn btn4">Heavy Rain</button></a>
+                <a href="lightplayer.html"><button class="btn btn5">Light Rain</button></a>
+                <a href="snowplayer.html"><button class="btn btn6">Snowy</button></a>
+                <a href="thunderplayer.html"><button class="btn btn7">Thunderstorm</button></a>
+                <a href="settings.html">Settings</a>
+
             </ul>
         </nav>
     </footer>
