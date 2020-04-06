@@ -1,0 +1,23 @@
+img {
+  height: 150px;
+  opacity: 1;
+  width: 100%;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pictcontainer {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
